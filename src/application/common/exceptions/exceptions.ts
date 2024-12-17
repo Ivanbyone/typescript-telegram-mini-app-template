@@ -1,0 +1,1 @@
+// base applications exceptions

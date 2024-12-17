@@ -1,0 +1,33 @@
+{
+  "name": "smart-tutor-backend",
+  "version": "1.0.0",
+  "description": "App for mentors",
+  "main": "index.js",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "build": "tsc",
+    "serve": "node dist/server.js",
+    "test": "jest"
+  },
+  "author": "Ivanbyone",
+  "license": "ISC",
+  "dependencies": {
+    "@telegram-apps/init-data-node": "^1.1.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "express-async-errors": "^3.1.1",
+    "inversify": "^6.0.3",
+    "reflect-metadata": "^0.2.2",
+    "uuid": "^11.0.2",
+    "winston": "^3.15.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.10.2",
+    "express": "^4.21.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
